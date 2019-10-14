@@ -231,7 +231,7 @@ public class MCMEChatPlaceholder extends PlaceholderHook{
                                new SimpleDateFormat("MMM d, yyyy")
                                        .format(new Date(p.getFirstPlayed())))
                      .replace("{player_time_played}", 
-                              formatTimespan(p.getStatistic(Statistic.PLAY_ONE_MINUTE)*50l)) //50long
+                              formatTimespan(p.getStatistic(Statistic.PLAY_ONE_TICK)*50l)) //50long
                      .replace("{player_world}", p.getWorld().getName())
                      .replace("{player_walked}", 
                               formatDistance(p.getStatistic(Statistic.WALK_ONE_CM)/100l)) //100long
