@@ -4,7 +4,6 @@ version: ${project.version}
 author: Eriol_Eandur
 softdepend: [Tab]
 depend: [Essentials, LuckPerms, PlaceholderAPI, PluginUtils]
-api-version: 1.13
 
 commands:
    mcmechat:
